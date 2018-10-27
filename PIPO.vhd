@@ -5,7 +5,7 @@ entity PIPO is
 generic(m:integer:=8);
 port(CLK_SAL,CLR:in std_logic;
           PI:in std_logic_vector(m-1 downto 0);
-			    PO:out std_logic_vector(m-1 downto 0)
+	  PO:out std_logic_vector(m-1 downto 0)
 );
 end PIPO;
 architecture behavioral of PIPO is
